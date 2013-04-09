@@ -16,10 +16,29 @@ Note that this is currently a work in progress. So things may not work as you
 expected it to work. If you want to test this you need to have following installed
 on your system
 
-* Virtualenv
 * pip
 
-Here is how to run:
+Install virtualenv
+
+    $ pip install virtualenv
+
+Virtualenv activate
+
+    $ source bin/activate
+
+Create virtualenv
+
+    $ mkvirtualenv silpa_env
+
+Start the virtualenv
+
+    $ workon silpa_env
+
+
+Test deployment
+---------------
+
+Here is how you make a test deployment:
 
     $ git clone https://github.com/Project-SILPA/Silpa-Flask.git
     $ cd Silpa-Flask
