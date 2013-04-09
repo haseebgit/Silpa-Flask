@@ -11,32 +11,26 @@ develop a python module without bothering about internals of SILPA itself.
 
 How To Run?
 ==========
+
 Note that this is currently a work in progress. So things may not work as you
 expected it to work. If you want to test this you need to have following installed
 on your system
 
-* Flask
-* Jinja2
-* Werkzeug
 * Virtualenv
+* pip
 
-If you don't want to spoil your system install following modules separated from original
-source code in virtual environment created using VirtualEnv module
 
-* [Soudex ](https://github.com/Project-SILPA/Soundex)
-* [ApproxSearch](https://github.com/Project-SILPA/ApproxSearch)
-* [Transliteration](https://github.com/Project-SILPA/Transliteration)
-* [Spellchecker](https://github.com/Project-SILPA/spellchecker)
-* [Hyphenation](https://github.com/Project-SILPA/Hyphenation)
-* [Chardetails](https://github.com/Project-SILPA/chardetails)
-* [Payyans](https://github.com/Project-SILPA/payyans)
+    $ git clone https://github.com/Project-SILPA/Silpa-Flask.git
+    $ cd Silpa-Flask
+    $ pip install -r requirements.txt
+    $ python silpa.py
 
+Install this module manually
+* [ApproxSearch](https://github.com/Project-SILPA/ApproxSearch
 Currently only these modules are used but you can include more you can find some more modules
 in my Github account, install them and add a line in *silpa.conf* for enabling them.
 
-Additionally we would need a *normalizer* module for *Transliteration* modules correct working.
-Get it from below URL and install it in your virtual environment but ***Do not add a line to silpa.conf
-for this module. Its not a web module pure python module*** 
+
 
 Wanna Help?
 ==========
