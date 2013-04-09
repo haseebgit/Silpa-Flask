@@ -21,8 +21,8 @@ on your system
 Virtualenv:
 
     $ curl -O https://raw.github.com/pypa/virtualenv/master/virtualenv.py
-    $ python virtualenv.py silpa_venv
-    $ . silpa_venv/bin/activate
+    $ python virtualenv.py venv
+    $ . venv/bin/activate
  
 Test deployment:
 
