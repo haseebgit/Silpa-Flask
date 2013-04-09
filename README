@@ -19,6 +19,7 @@ on your system
 * Virtualenv
 * pip
 
+Here is how to run:
 
     $ git clone https://github.com/Project-SILPA/Silpa-Flask.git
     $ cd Silpa-Flask
