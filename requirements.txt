@@ -1,0 +1,9 @@
+Flask
+Jinja2
+Werkzeug
+soundex
+Transliteration
+Spellchecker
+Hyphenation
+Chardetails
+Payyans
