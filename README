@@ -18,27 +18,13 @@ on your system
 
 * pip
 
-Install virtualenv
+Virtualenv:
 
-    $ pip install virtualenv
-
-Virtualenv activate
-
-    $ source bin/activate
-
-Create virtualenv
-
-    $ mkvirtualenv silpa_env
-
-Start the virtualenv
-
-    $ workon silpa_env
-
-
-Test deployment
----------------
-
-Here is how you make a test deployment:
+    $ curl -O https://raw.github.com/pypa/virtualenv/master/virtualenv.py
+    $ python virtualenv.py silpa_venv
+    $ . silpa_venv/bin/activate
+ 
+Test deployment:
 
     $ git clone https://github.com/Project-SILPA/Silpa-Flask.git
     $ cd Silpa-Flask
