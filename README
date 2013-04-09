@@ -17,13 +17,8 @@ expected it to work. If you want to test this you need to have following install
 on your system
 
 * pip
+* Virtualenv
 
-Virtualenv:
-
-    $ curl -O https://raw.github.com/pypa/virtualenv/master/virtualenv.py
-    $ python virtualenv.py venv
-    $ . venv/bin/activate
- 
 Test deployment:
 
     $ git clone https://github.com/Project-SILPA/Silpa-Flask.git
